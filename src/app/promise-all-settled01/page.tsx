@@ -1,5 +1,5 @@
 //Promise.allSettledメソッド ES2020
-//複数の非同期処理を並列に実行し、それらすべてが成功した場合に処理を実行する。
+//複数の非同期処理を成否にかかわらず、すべての非同期処理を実行し、その結果を返す
 export default function PromiseAllSettled01() {
   function asyncProcess(value: string) {
     //Promiseオブジェクトを返す
